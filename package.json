@@ -10,6 +10,8 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-slick": "^0.24.0",
+    "react-soundcloud": "^0.1.1",
+    "react-soundcloud-embed": "^1.0.3",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
