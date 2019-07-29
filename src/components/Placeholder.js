@@ -8,7 +8,7 @@ class Placeholder extends Component {
         <div className="container">
           <article className="message is-dark">
             <div class="message-body">
-              Welcome to the {this.props.pageName} page! This site is currently in development, but for now you can go check out the VIDEO page!
+              Welcome to the {this.props.pageName} page! This site is currently in development!
             </div>
           </article>
         </div>

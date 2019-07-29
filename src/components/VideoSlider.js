@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import '../css/VideoSlider.css';
+import '../css/MediaSlider.css';
 
 class VideoSlider extends Component {
   render() {
@@ -81,6 +81,7 @@ class VideoSlider extends Component {
         }
       ],
     };
+
     return (
       <div className="slick-container">
         <Slider key={this.props.playlistName + "-slider-object"} {...settings}>

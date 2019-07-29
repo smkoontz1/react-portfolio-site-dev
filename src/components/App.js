@@ -17,24 +17,14 @@ class App extends Component {
     burgerClicked: false,
   }
 
-  removeCharacter = index => {
-    const { characters } = this.state
-
-    this.setState({
-      characters: characters.filter((character, i) => {
-        return i !== index;
-      }),
-    })
-  }
-
-  handleSubmit = character => {
-    this.setState({ characters: [...this.state.characters, character] });
-  }
-
   handleBurgerClick = () => {
     this.setState({
       burgerClicked: !this.state.burgerClicked,
     });
+  }
+
+  componentDidMount() {
+    document.title = "KOONTZ";
   }
 
   render() {
