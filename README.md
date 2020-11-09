@@ -1,3 +1,6 @@
+## NOTE:
+This is a very old github repo, before I understand branching properly, hence this being the "dev" repo.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
